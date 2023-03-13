@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
   <title>IlRistoranteAlpino</title>
@@ -13,58 +13,118 @@
 </head>
 
 <body>
-
   <div id="intestazione" class="container-- p-5 bg-secondary text-white text-center" style="background-image: url(montagne.jpg); 
   background-repeat:no-repeat; background-size: cover; width: 1900px;height:400px;">
     <h1>Il Ristorante Alpino</h1>
     <p><a href="https://www.instagram.com/la_guidalpina/">La NOSTRA Guida Alpina</a></p>
   </div>
 
-  <div class="wrapper mt-5"></div>
+  <div class="wrapper-intestazione mt-5"></div>
   <div class="container">
-    <div id="demo" class="carousel slide" data-bs-ride="carousel" title="Antipasti">
+    <h2>Antipasti del menù</h2>
+
+    <div class="wrapper-titolo mt-5"></div>
+
+    <div id="antipasti" class="carousel slide align-items-center" data-bs-ride="carousel" title="Antipasti">
       <div class="carousel-indicators">
-        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-      </div>
-  
-    <div class="carousel-inner" style="align-items: center;">
-      <div class="carousel-item active">
-        <div class="classe_img_con_didascalia">
-          <img src="antipasti/affettati.jpg" alt="Affettati" class="d-block w-100" style="align-self: center;">
-          <div class="carousel-caption">
-            <p>Affettati offerti da Casa Targa, Frassinelle Polesine (RO).</p>
-          </div>
-        </div>
+        <button type="button" data-bs-target="#antipasti" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#antipasti" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#antipasti" data-bs-slide-to="2"></button>
       </div>
 
-      <div class="carousel-item">
-        <div class="classe_img_con_didascalia">
-          <img src="antipasti/formaggi.jpg" alt="Tagliere" class="d-block w-100" style="align-content: center;">
-          <div class="carousel-caption">
-            <p>Tagliere di formaggi tipici del posto.</p>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="classe_img_con_didascalia d-flex justify-content-center">
+            <img src="antipasti/affettati.jpg" alt="Affettati" class="d-block w-100">
+            <div class="carousel-caption">
+              <p>Affettati offerti da Casa Targa, Frassinelle Polesine (RO).</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="carousel-item">
-        <div class="classe_img_con_didascalia">
-          <img src="antipasti/bruschetta.jpg" alt="Tagliere" class="d-block w-100" style="align-content: center;">
-          <div class="carousel-caption">
-            <p>Bruschette calde.</p>
+        <div class="carousel-item">
+          <div class="classe_img_con_didascalia d-flex justify-content-center">
+            <img src="antipasti/formaggi.jpg" alt="Tagliere" class="d-block w-100">
+            <div class="carousel-caption">
+              <p>Tagliere di formaggi tipici del posto.</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </button>
+        <div class="carousel-item">
+          <div class="classe_img_con_didascalia d-flex justify-content-center">
+            <img src="antipasti/bruschetta.jpg" alt="Tagliere" class="d-block w-100">
+            <div class="carousel-caption">
+              <p>Bruschette calde.</p>
+
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#antipasti" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#antipasti" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
     </div>
-  
+  </div>
+
+  <div class="wrapper-piatti mt-5"></div>
+  <div class="container">
+    <h2>Piatti Primi</h2>
+
+    <div class="wrapper-titolo mt-5"></div>
+
+    <div id="primi" class="carousel slide align-items-center" data-bs-ride="carousel" title="Primi">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#primi" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#primi" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#primi" data-bs-slide-to="2"></button>
+      </div>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="classe_img_con_didascalia d-flex justify-content-center">
+            <img src="antipasti/affettati.jpg" alt="Affettati" class="d-block w-100">
+            <div class="carousel-caption">
+              <p>Affettati offerti da Casa Targa, Frassinelle Polesine (RO).</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="classe_img_con_didascalia d-flex justify-content-center">
+            <img src="antipasti/formaggi.jpg" alt="Tagliere" class="d-block w-100">
+            <div class="carousel-caption">
+              <p>Tagliere di formaggi tipici del posto.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="classe_img_con_didascalia d-flex justify-content-center">
+            <img src="antipasti/bruschetta.jpg" alt="Tagliere" class="d-block w-100">
+            <div class="carousel-caption">
+              <p>Bruschette calde.</p>
+
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#primi" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#primi" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrapper-piatti mt-5"></div>
+
 </body>
 
 </html>
