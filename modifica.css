@@ -1,6 +1,6 @@
-h1 {
-  color: rgb(63, 28, 18);
-  margin-left: 20px;
+body {
+  background-color: #202020;
+  color: #fff;
 }
 
 .intestazione {
@@ -17,18 +17,26 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
-  height: 70%;
-  
-}
-.carousel-item img {
-  display: block;
-  margin: 0 auto;
+  width: 50%;
+  height: 50%;
 }
 
-.wrapper {
-  height: 30px; /* altezza del wrapper */
+.carousel-item img {
+  align-items: center;
+  display: flex;
+  margin: 0 auto;
+}
+.wrapper-intestazione {
+  height: 100px; /* altezza del wrapper */
   width: 50px; /* larghezza del wrapper */
+}
+.wrapper-titolo
+{
+  height: 15px;
+}
+.wrapper-piatti
+{
+  height: 250px;
 }
 
 .classe_img_con_didascalia p {
