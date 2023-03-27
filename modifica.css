@@ -4,20 +4,22 @@
 }
 
 .classe_img_con_didascalia {
-  float: left;
-  position: relative;
-  overflow: hidden;
-  width: 500px;
-  height: 300px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  height: 50%;
+  
+  height:auto;
+  width: auto;
+  left: 0;
+  bottom: 0;
+  display: none;
+  padding: 10px;
 }
 
+
+
 .carousel-item img {
+  width: 900px;
+ height: 600px;
   align-items: center;
+ 
   display: flex;
   margin: 0 auto;
 }
@@ -36,7 +38,7 @@
 }
 
 .classe_img_con_didascalia p {
-  position: absolute;
+
   left: 0;
   bottom: 0;
   background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
