@@ -21,6 +21,7 @@
   display: flex;
   margin: 0 auto;
 }
+
 .wrapper-intestazione {
   height: 100px; /* altezza del wrapper */
   width: 50px; /* larghezza del wrapper */

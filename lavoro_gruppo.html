@@ -22,17 +22,46 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-3 sidebar">
-          <ul class="nav flex-column">
+        <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" style="width: 280px;">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+            <span class="fs-4">Il Ristorante</span>
+          </a>
+          <hr>
+          <ul class="nav nav-pills flex-column mb-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Dashboard</a>
+              <a href="#" class="nav-link active" aria-current="page">
+                <svg class="bi me-2" width="16" height="16"><use xlink:href="#home"></use></svg>
+                Home
+              </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Orders</a>
+            <li>
+              <a href="#" class="nav-link text-white">
+                <svg class="bi me-2" width="16" height="16"><use xlink:href="#speedometer2"></use></svg>
+                Antipasti
+              </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Customers</a>
+            <li>
+              <a href="#" class="nav-link text-white">
+                <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"></use></svg>
+                Primi piatti
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link text-white">
+                <svg class="bi me-2" width="16" height="16"><use xlink:href="#grid"></use></svg>
+                Desserts
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link text-white">
+                <svg class="bi me-2" width="16" height="16"><use xlink:href="#people-circle"></use></svg>
+                Vini e bibite
+              </a>
             </li>
           </ul>
+          <hr>
+        </div>
         </div>
       </nav>
     </div>
@@ -42,14 +71,14 @@
           <h2>Antipasti del menù</h2>
       
           <div class="wrapper-titolo mt-5"></div>
-      
+          
           <div id="antipasti" class="carousel slide align-items-center" data-bs-ride="carousel" title="Antipasti">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#antipasti" data-bs-slide-to="0" class="active"></button>
               <button type="button" data-bs-target="#antipasti" data-bs-slide-to="1"></button>
               <button type="button" data-bs-target="#antipasti" data-bs-slide-to="2"></button>
             </div>
-      
+            <h3>Antipasti</h3>
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <div class="classe_img_con_didascalia d-flex justify-content-center">
@@ -91,10 +120,9 @@
       
         <div class="wrapper-piatti mt-5"></div>
         <div class="container">
-          <h2>Piatti Primi</h2>
       
           <div class="wrapper-titolo mt-5"></div>
-      
+          <h3>Primi piatti</h3>
           <div id="primi" class="carousel slide align-items-center" data-bs-ride="carousel" title="Primi">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#primi" data-bs-slide-to="0" class="active"></button>
@@ -105,14 +133,14 @@
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <div class="classe_img_con_didascalia d-flex justify-content-center">
-                  <img src="primi/bigoli.jpg" alt="Affettati" class="d-block w-100">
+                  <img src="primi/bigoli" alt="Affettati" class="d-block w-100">
                   <div class="carousel-caption"> <p>Bigoli al ragù di anatra.</p> </div>
                 </div>
               </div>
       
               <div class="carousel-item">
                 <div class="classe_img_con_didascalia d-flex justify-content-center">
-                  <img src="primi/canederli.png" alt="Tagliere" class="d-block w-100">
+                  <img src="primi/canederli.jpg" alt="Tagliere" class="d-block w-100">
                   <div class="carousel-caption">
                     <p>Canederli con speck e verdure.</p>
                   </div>
@@ -121,10 +149,9 @@
       
               <div class="carousel-item">
                 <div class="classe_img_con_didascalia d-flex justify-content-center">
-                  <img src="primi/polenta.jpg" alt="Tagliere" class="d-block w-100">
+                  <img src="primi/polenta.jpeg" alt="Tagliere" class="d-block w-100">
                   <div class="carousel-caption">
-                    <p>Una porzione di polenta calda, servita nella tipica pentolina.</p>
-      
+                    <p>Una porzione di polenta calda, servita con sugo di maiale.</p>
                   </div>
                 </div>
               </div>
@@ -144,6 +171,11 @@
     </div>
   </div>
 
-</body>
+  <footer class="footer mt-auto py-3 bg-light" >
+    <div class="container">
+      <span class="text-muted" style="display: flex; justify-content: center; align-items: center;">Magnifico sito, anzi assoluto, di Bertoncello, Ferariu e Giuliotti (uno dei peggiori siti che abbia mai visto, secondo solo a quello del'ASM).</span>
+    </div>
+  </footer>
 
+</body>
 </html>
